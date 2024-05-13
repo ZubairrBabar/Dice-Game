@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+<div class="main">
+ <h1>Dice Game</h1>
+<h3 id="msg" class="msg"> </h3>
+<div class="container">
+    <div onclick="trymyluck(1)" class="box"><img src="1.jpeg" alt=""></div>
+    <div onclick="trymyluck(2)" class="box"><img src="2.jpeg" alt=""></div>
+    <div onclick="trymyluck(3)" class="box"><img src="3.jpeg" alt=""></div>
+    <div onclick="trymyluck(4)" class="box"><img src="4.jpeg" alt=""></div>
+    <div onclick="trymyluck(5)" class="box"><img src="5.jpeg" alt=""></div>
+    <div onclick="trymyluck(6)" class="box"><img src="6.jpeg" alt=""></div>
+</div>
+
+<div class="container">
+    <div class="box_2"> <b> User Number   : </b>  <span id="user_number">   10 </span>   </div>
+    <div class="box_2"> <b> Random Number : </b>  <span id="random_number"> 3  </span>   </div>
+    <div class="box_2" id="box_result"> <b id="result"> You Win / Loss </b>  </div>
+</div>
+
+<div class="container">
+    <div class="box_3"> <b> Turns  : </b>  <span id="total"> 15</span>   </div>
+    <div class="box_3"> <b> Win    : </b>  <span id="win">   0</span>    </div>
+    <div class="box_3"> <b> Loss   : </b>  <span id="loss" > 0</span>    </div>
+
+</div>
+
+</div>
+ 
+
+
+    <script src="app.js"></script>
+</body>
+</html>
